@@ -42,7 +42,6 @@ public class TiketBioskop02 {
             lanjut = input.next();
         } while (lanjut.equalsIgnoreCase("y"));
 
-        System.out.println("\n=== Rekap Penjualan Harian ===");
         System.out.println("Total tiket terjual: " + totalTiket + " tiket");
         System.out.println("Total penjualan: Rp " + (int) totalPenjualan);
 
